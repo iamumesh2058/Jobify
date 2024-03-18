@@ -8,11 +8,12 @@ import { JOB_STATUS, JOB_TYPE } from '../../../utils/constant';
 import FormRowSelect from '../components/FormRowSelect';
 
 
-export const action = async ({ request }) => {
+export const action = (queryClient) => async ({ request }) => {
 	const formData = await request.formData();
     const data = Object.fromEntries(formData);
 	try {
 		await customFetch.post('/jobs/createjob', data);
+		queryClient.invalidateQueries(['jobs']);
 		toast.success('Job added successfully')
 		return redirect('/dashboard/all-jobs');
 	} catch (error) {
