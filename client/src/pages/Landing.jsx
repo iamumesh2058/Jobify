@@ -16,7 +16,7 @@ const Landing = () => {
                         job <span>tracking</span> app
                     </h1>
                     <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero qui dolorum, magnam earum molestiae incidunt et ea cumque soluta minus vel accusantium ab fugiat. Laudantium quia nobis numquam dolorum illum!
+                        In today's fast-paced world, connecting job seekers with the right opportunities efficiently is crucial. Enter Jobify, the innovative platform reshaping the landscape of employment connections. With its user-friendly interface and cutting-edge algorithms, Jobify streamlines the job search process like never before.
                     </p>
                     <Link to="/register" className='btn register-link'>Register</Link>
                     <Link to="/login" className='btn'>Login / Demo User</Link>
