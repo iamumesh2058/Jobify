@@ -64,7 +64,7 @@ In order to run this project locally on your device, you need to follow these st
 ## Step 5: Setup Envionment Variables
 You have to provide your own .env variables in order to run this project.Here's how you can do it:
 - Create a new file .env in root folder
-- open [.env.demo](Jobify/.env.demo)
+- open [.env.demo](/.env.demo)
 - Fill the contents with your own valid values and copy it to .env
 
 ## Step 6: Start the server
