@@ -19,3 +19,60 @@ In today's fast-paced world, connecting job seekers with the right opportunities
 
 # ![web-programming](https://github.com/iamumesh2058/Jobify/assets/101959977/605c739c-364c-42d3-8985-ffdd91c17fc5) Local Development
 
+## Features
+
+- Light/dark mode toggle
+- Secure user registraiton and authentication
+- Explore as a demo user
+- Perform CRUD operation on jobs
+- View stats about your job applicaiton
+
+
+## Tech Stack
+
+- React + React-Router-Dom V6
+- Styled-components
+- React Query
+- MongoDB
+- Node.js+ Express.js
+
+
+## Run Locally
+
+Clone the project
+
+```bash
+  git clone git@github.com:iamumesh2058/Jobify.git
+```
+
+Go to the project directory
+
+```bash
+  cd Jobify
+```
+
+Install dependencies
+
+```bash
+  npm install
+```
+
+Install dependencies of frontend
+
+```bash
+  cd client
+  npm install
+```
+
+Step 3: Setup Envionment Variables
+You have to provide your own .env variables in order to run this project.Here's how you can do it:
+- Create a new file .env in root folder
+- open .env.Example
+- Fill the contents with your own valid values and copy it to .env
+
+Start the server
+
+```bash
+  npm run dev
+```
+
